@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="shortcut icon" href="img/pokebola=logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    
+</head>
+
+<body>
+    <div id="corpo">
+        <section class="informativo">
+            <div class="pesquisa">
+                <img src="img/pokrmon.png" alt="">
+                <div>
+                    <select name="" id="selecao">
+                        
+                    </select>
+                    <input type="button" value="pesquisar" onclick="pesquisar()">
+
+
+                </div>
+                <div id="logo">
+                    <img src="https//raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="" >
+                </div>
+            </div>
+        </section>
+        <section class="tela">
+            <div>
+                <div class="desc">
+                    <div class="container" >
+                        <h3>Nome:</h3>
+                        <div  id="nome"></div>
+                    </div>
+                    <div class="container" >
+                        <h3>Tipo:</h3> 
+                        <div id="tipo"></div>
+                    </div>
+                    <div class="container" >
+                        <h3>Numero:</h3>
+                        <div id="numero"></div>
+                    </div>                    
+                </div>
+                <div class="container02">
+                    <h1>Versão normal</h1>
+                    <img src="" alt="pokemon" id="image01">
+                    
+
+                </div>
+                <div class="container02">
+                    <h1>Versão shiny</h1>
+                    <img src="" alt="pokemon" id="image02">
+
+                </div>
+                
+            </div>
+        </section>
+            <div class="habilidades">
+                <table>
+                    <tr>
+                        <td>Hp  </td>
+                        <td>Attack</td>
+                        <td>Defense</td>
+                        <td>pAta</td>
+                        <td>pDef</td>
+                        <td>Speed</td>
+                    </tr>
+                    <tr>
+                        <td id="hp" ></td>
+                        <td id="attack" ></td>
+                        <td id="defense" ></td>
+                        <td id="pata" ></td>
+                        <td id="pdef" > </td>
+                        <td id="speed" ></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div></div>
+    </footer>
+
+</body>
+<script src="js/index.js"></script>   
+
+</html>
